@@ -9,8 +9,8 @@ def norm(I,a,b):
     return a + (b-a)*I
 
 
-parentpath = '.'
-out_path = 'output_pngs'
+parentpath = 'C:\Program Files (x86)\Google\Cloud SDK\MAS-TrainingImages'
+out_path = 'C:\Program Files (x86)\Google\Cloud SDK\MAS-TrainingImages2'
 
 if not os.path.exists(out_path):
     os.mkdir(out_path)
