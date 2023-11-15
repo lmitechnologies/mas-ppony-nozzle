@@ -1,0 +1,17 @@
+path: /app/data # dataset root dir (must use absolute path!)
+train: images  # train images (relative to 'path')
+val: images  # val images (relative to 'path')
+test:  # test images (optional)
+ 
+# Classes
+names: # class names must match with the names in class_map.json
+  0: Wrinkle
+  1: Scan Artifact
+  2: Release Paper Line
+  3: Slashface
+  4: Radius
+  5: Background
+  6: Exposed Fibers/Grind Marks
+  7: Positive
+  8: Stripes
+  9: Edge
